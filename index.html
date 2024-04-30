@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️Casate conmigo❤️</title>
+    <style>
+        .body{
+            background-color: beige;
+            text-align: center;
+        }
+
+        .body__img{
+            width: 100%;
+            border-radius: 50;
+        }
+    </style>
+
+</head>
+
+<body class="body">
+    <h1 class="boy__tittle">❤️Ya no puedo estar sin verte❤️</h1>
+    <h2 class ="Sub">❤️¿Quieres salir conmigo?❤️</h2>
+    <img src="https://img.freepik.com/fotos-premium/tulipanes-blancos-sobre-fondo-beige-hermosas-flores-como-fondo-plano-naturaleza-vacaciones_360074-7819.jpg" 
+    alt="Sus flores favoritas" class="body_img" />
+    <button id="yes">😍Si😍</button>
+    <button id="no">No puedo, prefiero a Hector😭</button>
+
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const awiwi = () => {
+            alert('❤️¿Que dia paso por ti?❤️');
+            alert('Ya hay que andar');
+        };
+
+        const ebitarKCRompaMyBobo = () => {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+            vutonNo.style.top = (Math.random() * window.innerWidth) + 'px';
+        };
+
+        vutonSi.addEventListener('click', awiwi);
+        vutonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+
+    </script>
+
+</body>
+</html>
